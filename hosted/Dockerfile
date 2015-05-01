@@ -7,7 +7,7 @@
 # to build using one or the other model.
 
 FROM ubuntu:14.04
-ENV nuodb_package nuodb_2.1.1.10_amd64.deb
+ENV nuodb_package nuodb_2.2.0.11_amd64.deb
 
 # update the distro and install the JRE and supervisor
 RUN /usr/bin/apt-get update

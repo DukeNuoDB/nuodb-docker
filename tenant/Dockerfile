@@ -4,8 +4,8 @@
 # should change the $nuodb_package value to whichever .tgz package you are
 # are using for this image.
 
-FROM ubuntu:vivid
-ENV nuodb_package nuodb-2.2.0.linux.x86_64.tar.gz
+FROM ubuntu:14.04
+ENV nuodb_package nuodb-2.2.0.11.linux.x86_64.tar.gz
 
 # add the package and setup so it's in the usual location
 ADD $nuodb_package /tmp/
